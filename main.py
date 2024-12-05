@@ -1,5 +1,5 @@
 #### Imports et définition des variables globales
-
+from collections import namedtuple
 
 #### Fonctions secondaires
 
@@ -15,6 +15,8 @@ def artcode_i(s):
     """
     
     # votre code ici
+    for i in range (0, len(s)):
+        Resultat = namedtuple('caractere', 'occurence')
 
     return [ ]
 
