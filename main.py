@@ -21,9 +21,10 @@ def artcode_i(s):
     
     for i in range (0, len(s)):
         for j in range (0 : len(alphabet))
-        if 
+            if s.charAt(i) = alphabet.charAt(j):
+                Resultat(j) +=1
 
-    return [ ]
+    return Resultat
 
 
 def artcode_r(s):
