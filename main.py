@@ -39,26 +39,27 @@ def artcode_r(s):
     
     # votre code ici
 
+    Indice=0
     alphabet = "abcdefghijklmnopqrstvwxyz"
     Resultat = namedtuple('caractere', 'occurence')
 
     # cas de base
 
-    iflen(s)==0:
+    if len(s)==0:
         return Resultat
     
     # recherche nombre de caractères identiques au premier
-    
+
+    for t in range (0, len(alphabet)):
+        if s.charAt(0) == alphabet(t):
+            Indice = t
     
     for i in range (0, len(s)):
-        for j in range (0 : len(alphabet))
-            if s.charAt(i) = alphabet.charAt(j):
-                Resultat(j) +=1
+        if s.charAt(i) = s.charAt(0):
+            Resultat(indice) +=1
+            s.del(i);
 
-    return Resultat
-    # appel récursif
-
-    return []
+    return artcode_r()
     
 
 #### Fonction principale
