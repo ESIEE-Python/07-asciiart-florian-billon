@@ -45,7 +45,7 @@ def artcode_r(s):
     # cas de base
 
     iflen(s)==0:
-    return Resultat
+        return Resultat
     
     # recherche nombre de caractères identiques au premier
     
