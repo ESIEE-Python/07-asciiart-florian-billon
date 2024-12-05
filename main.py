@@ -15,8 +15,13 @@ def artcode_i(s):
     """
     
     # votre code ici
+
+    alphabet = "abcdefghijklmnopqrstvwxyz"
+    Resultat = namedtuple('caractere', 'occurence')
+    
     for i in range (0, len(s)):
-        Resultat = namedtuple('caractere', 'occurence')
+        for j in range (0 : len(alphabet))
+        if 
 
     return [ ]
 
